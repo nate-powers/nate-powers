@@ -1,0 +1,38 @@
+@media (min-width: 800px and max-width: 899 px)
+{col-med-1}
+.col-med-1 {width: 25%;}
+
+@media( min-width: 900px){
+  col-lg-1}
+.col-lg-1{width: 30%;}
+
+
+
+ul { }
+ul li {
+  display: inline-block;
+  list-style: 0;
+}
+ul li a {
+  text-decoration: 0;
+  font-size: 14px;
+  font-family: arial;
+  padding: 0 20px;
+  color: black;
+}
+
+
+.title {
+  color: orange;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+.desert {
+  color: orange;
+}
+
+table td {
+  border: 2px solid orange;
+  background-color: brown;
+}
