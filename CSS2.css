@@ -6,7 +6,9 @@
   col-lg-1}
 .col-lg-1{width: 30%;}
 
-
+.sidebar {
+  color: orange;
+}
 
 ul { }
 ul li {
@@ -32,9 +34,7 @@ ul li a {
   color: orange;
 }
 
-.sidebar {
-  color: orange;
-}
+
 
 table td {
   border: 2px solid orange;
