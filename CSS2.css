@@ -32,6 +32,10 @@ ul li a {
   color: orange;
 }
 
+.sidebar {
+  color: orange;
+}
+
 table td {
   border: 2px solid orange;
   background-color: brown;
