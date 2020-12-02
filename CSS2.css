@@ -6,9 +6,6 @@
   col-lg-1}
 .col-lg-1{width: 30%;}
 
-.sidebar {
-  color: orange;
-}
 
 ul { }
 ul li {
@@ -31,6 +28,9 @@ ul li a {
 }
 
 .desert {
+  color: orange;
+}
+aside li {
   color: orange;
 }
 
