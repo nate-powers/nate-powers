@@ -51,4 +51,25 @@ List-style-type: none;
 }
 #navbar li {
 Display: inline;
+}#navbar {
+Margin: 0;
+Padding: 0;
+List-style-type: none;
+Border: 5px solid #ff6600
+Border-radius: 10px 5px
+Width: 650px;
+Text-align: center;
+Background-color: #ff6600
+#navbar a {
+Color: #fff
+Padding: 5px 10px;
+Text-decoration: none;
+Font-weight: bold;
+Display: inline-block;
+Width: 100px;
 }
+#navbar a:hover {
+Border-radius: 20px 5px;
+Background-color: mff9933
+
+
