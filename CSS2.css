@@ -44,6 +44,7 @@ table td {
   background-color: brown;
 }
 
+
 #navbar {
 margin: 0;
 padding: 0;
@@ -61,6 +62,7 @@ border-radius: 10px 5px;
 width: 650px;
 text-align: center;
 background-color: #00b300;
+}
 #navbar a {
 color: #fff;
 padding: 5px 10px;
@@ -72,6 +74,18 @@ width: 100px;
 #navbar a:hover {
 border-radius: 20px 5px;
 background-color: #ccffcc;
+ }
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  background: #999;
+}
+  }
+
+
  
 footer {
   position: fixed;
