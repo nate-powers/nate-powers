@@ -7,6 +7,18 @@
 .col-lg-1{width: 30%;}
 
 
+ul { }
+ul li {
+  display: inline-block;
+  list-style: 0;
+}
+ul li a {
+  text-decoration: 0;
+  font-size: 14px;
+  font-family: arial;
+  padding: 0 20px;
+  color: green;
+}
 
 
 .title {
