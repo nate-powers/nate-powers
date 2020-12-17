@@ -43,3 +43,12 @@ table td {
   border: 2px solid orange;
   background-color: brown;
 }
+
+#navbar {
+Margin: 0;
+Padding: 0;
+List-style-type: none;
+}
+#navbar li {
+Display: inline;
+}
