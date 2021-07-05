@@ -15,8 +15,15 @@
       </ul>
     </nav>
  </div>
+<script>
+    function checkAddress(email) {
+        if (document.getElementById(email).value === "") {
+            alert("Email required.");
+        }
+</script>
+    
  
-<form method="GET" action="Success.html">
+<form method="GET" action="Success.html" onSubmit="checkAddress('email');">
 <label for="name">Name:</label>
 <input type="text" id="name" name="username" onFocus="this.style.backgroundColor = 'orange';" required>
 <label for="email">Email:</label>
