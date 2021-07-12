@@ -20,6 +20,9 @@ ul li a {
   color: green;
 }
 
+.desertParagraph {
+  color: orange;
+}
 
 .title {
   color: orange;
@@ -88,10 +91,6 @@ footer {
   background-color: #00b300;
   color: #ccffcc;
   border-radius: 5px 5px;
-}
-
-.desertParagraph {
-  color: orange;
 }
 
 
