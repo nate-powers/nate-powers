@@ -22,6 +22,7 @@
     <div id="sidebar"
       <aside>
       <ul>
+         <li><input type="button" class="wikidesert" value="More about Sonoran Desert" onClick="wiki();">
       <li><a href="https://en.wikipedia.org/wiki/Sonoran_Desert">More about the Sonoran Desert</a></li>
       <li><a href="https://www.gettyimages.com/photos/sonoran-desert?mediatype=photography&phrase=sonoran%20desert&sort=mostpopular">Images of Sonoran Desert</a></li>
       </ul>
@@ -31,6 +32,9 @@
         <ul>
           <a href="Home.html">Home</a>
            <script> var d = new Date();
+            function wiki() {
+                window.location.assign("https://en.wikipedia.org/wiki/Sonoran_Desert")
+            }
           </script>
              <input type="button" class="date" value="Date/time" onClick="alert(d);">
         </ul>
