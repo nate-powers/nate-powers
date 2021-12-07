@@ -90,7 +90,7 @@ footer {
   background-color: #00b300;
   color: #ccffcc;
   border-radius: 5px 5px;
-  position: right;
+  float: right;
 }
 
 .wikidesert {
