@@ -89,13 +89,14 @@ footer {
   background-color: #00b300;
   color: #ccffcc;
   border-radius: 5px 5px;
-  text-align: right;
+  margin: 60
 }
 
 .wikidesert {
   background-color:  #00b300;
   color: #ccffcc;
   border-radius: 5px 5px;
+  
 }
 
 .wikidesert1 {
