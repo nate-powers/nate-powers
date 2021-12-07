@@ -1,43 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" xml:lang="en">
+   
   <body>
-    
-     <title>Sonoran Desert</title>
-    <div class="title"><h1>Sonoran Desert</h1></div>
+    <title>Arizona Cardinals Drawings by Nate Powers</title>
+    <div class="title"><h1>Arizona Cardnials Drawings by Nate Powers</h1></div>
 <div class="menu">
     <nav>
       <ul id="navbar">
-        <a href="Home.html">Home</a>
-        <a href="TypeAnimals.html">Type of Animals</a>
-        <a href="animalTable.html">Animal Table</a>
-        <a href="AboutDesert.html">About the Desert</a>
-        <a href="home1.html">Video</a>
-        <a href="survey.html">Survey</a>
-        <a href="Contact.html">Contact</a>
+        <a href="home.html">Home</a>
+        <a href="aboutMe">About me</a>
+        <a href="drawings.html">Drawings</a>
+        <a href="contact.html">Contact</a>
       </ul>
     </nav>
   </div>
-
-     <div class="homePargraph"> <p>A rattlesnake found in the <span class="desert">Sonoran Desert</span></p></div>
-      <div class="homeImg" <div class="homeImg"><img src="https://i.ibb.co/xH99Wnk/rattlesnake1.jpg" onMouseover="src='https://i.ibb.co/R2d0MhP/rattlesnake2.png'" onMouseout="src='https://i.ibb.co/xH99Wnk/rattlesnake1.jpg'" alt="Sonoran desert rattle snake"></div>
-    <div class="sidebar">
+    
+      <div class="homeImg"><img src="https://i.ibb.co/xH99Wnk/rattlesnake1.jpg" onMouseover="src='https://i.ibb.co/R2d0MhP/rattlesnake2.png'" onMouseout="src='https://i.ibb.co/xH99Wnk/rattlesnake1.jpg'" alt="Sonoran desert rattle snake"></div>
+    <div id="sidebar">
       <aside>
       <ul>
-           <input type="button" class="wikidesert" value="More about Sonoran Desert" onClick="wiki();">
+       <li>
+       <input type="button" class="wikidesert" value="More about Sonoran Desert" onClick="wiki();">
        <input type="button" class="wikidesert1" value="Images of Sonoran Desert" onClick="wiki2();">
+      <li>
       </ul>
+      </aside>
         </div>
         <footer>
         <ul>
           <a href="Home.html">Home</a>
-          <script> var d = new Date();
+           <script> var d = new Date();
+            function wiki() {
+                window.location.assign("https://en.wikipedia.org/wiki/Sonoran_Desert");
+            }
+            function wiki2() {
+               window.location.assign("https://www.gettyimages.com/photos/sonoran-desert?mediatype=photography&phrase=sonoran%20desert&sort=mostpopular");
+            }
           </script>
-            <input type="button" class="date" value="Date/time" onClick="alert(d);">
-          </ul>
+             <input type="button" class="date" value="Date/time" onClick="alert(d);">
+        </ul>
       </footer>
-    
   </body>
-    <script src="main.js"></script>
+
 
   
 
