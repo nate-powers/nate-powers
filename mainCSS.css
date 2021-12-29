@@ -12,8 +12,6 @@ button
 }
 .nav:a:hover {
 	color: white;
-	padding: 20 0 20 0px;
-	margin: 20 0 20 0px;
 }
 .aboutMe {
 	color: red;
