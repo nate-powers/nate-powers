@@ -1,10 +1,12 @@
 
 .title {
 	color: red;
+	text-align: center;
 }
 
 nav {
 	color: yellow;
+	
 
 }
 a:hover {
